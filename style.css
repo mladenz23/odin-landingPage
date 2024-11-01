@@ -54,7 +54,7 @@ header li a {
   flex-direction: column;
 }
 
-p {
+.section.one p {
   font-size: 16px;
   color: rgba(255, 255, 255, 0.8);
   margin: 0 0 10px 0;
@@ -103,6 +103,7 @@ nav li {
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
+  text-align: center;
 }
 
 .section.three {
@@ -113,4 +114,52 @@ nav li {
   font-size: 36px light;
   font-style: italic;
   color: #1f2937;
+}
+
+.s2-cont {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 70px;
+}
+
+.box {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box div {
+  border: 3px solid #3882f6;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.section.two p {
+  font-size: 14px;
+  text-align: center;
+  margin: 5px 0 0 0;
+}
+
+.s3-cont {
+  width: 60%;
+  margin: auto;
+  padding: 70px 0;
+}
+
+.s3-cont p {
+  margin: 0;
+}
+
+#signature {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 5px;
 }
