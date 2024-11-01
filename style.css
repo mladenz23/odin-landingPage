@@ -168,7 +168,7 @@ nav li {
 .s4-cont {
   background-color: #3882f6;
   width: 80%;
-  margin: 70px auto;
+  margin: 80px auto;
   border-radius: 5px;
   display: flex;
   justify-content: space-around;
@@ -183,4 +183,14 @@ nav li {
 #cta {
   font-size: 18px;
   font-weight: bold;
+}
+
+footer {
+  padding: 10px 0;
+}
+
+footer p {
+  color: #f9faf8;
+  text-align: center;
+  font-size: 14px;
 }
